@@ -1,0 +1,29 @@
+context = ssl.create_default_context()
+
+with smtplib.SMTP(smtp_server_outlook,tls_port_o) as server:
+    
+    server.ehlo()
+    server.starttls(context=context)
+    server.ehlo()
+    server.login(mail_outlook,password_outlook)
+    server.sendmail(mail_outlook,to_2,body)
+
+    ssl-> context
+
+    client->server -> EHLO
+        server responds
+    client->server -> STARTTLS ->(server.starttls(context=context))
+        server responds
+    client->server -> EHLO
+        server responds
+    client -> server -> ##need to understand
+                        server.login(user,pass)
+
+
+smptblib
+
+SMTP class initialization 
+
+connect(host,port)
+
+
