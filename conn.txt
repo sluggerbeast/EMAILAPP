@@ -1,1 +1,1 @@
-testing
+This file should have an extension .py and should contain all the sensitive information like email and password for the email authentication. I have left it blank for obvious reasons.
