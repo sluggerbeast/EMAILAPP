@@ -1,14 +1,14 @@
 
 
-## This is going to to be a learning journey to implement an email client
+## This is going to be a learning journey to implement an email client
 
 
-This is the priliminary stage and I have implement pop3 and smtp in python
+This is the preliminary stage and I have implemented pop3 and SMTP in python
 
-Now working on making a web version so it is accecible through internet 
+Now working on making a web version so it is accessible through the internet 
 
-Initial decision of the stack
+The initial decision of the stack
 
-Backend: php
-front : javascript ( maybe vanila)
-database: mySql
+Backend: PHP
+frontend: javascript ( maybe Vanila)
+database: MySQL
